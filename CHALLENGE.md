@@ -90,7 +90,7 @@ In 'camel case', compound words are formed by capitalizing the first letter of e
 
     exampleVariable
 
-In snake_case, words are separated by underscores (_) and all letters are lowercase. Though not entirely obsolete in JS, this convention is most commonly used in languages like Python.
+In 'snake case', words are separated by underscores (_) and all letters are lowercase. Though not entirely obsolete in JS, this convention is most commonly used in languages like Python.
 
     example_variable
 ```
@@ -156,7 +156,7 @@ Since double quotation marks are strictly present in values of type 'String', it
     1 <= 0 -> false
 ```
 ```
-It is important to consider that how these operators function is also dependant on the operand's type. With 'String' type values, for example, the comparison is performed in lexicographic order.
+It is important to consider that the way these operators function is also dependant on the operand's type. With 'String' type values, for example, the comparison is performed in lexicographic order.
 
     "example" < "example1" -> true
     1 < "example" -> true (1 is coerced into type 'String')
