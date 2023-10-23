@@ -8,8 +8,8 @@ function getTypeOf(value) {
     console.log(typeof(value));
 }
 
-getTypeOf("Penis");
-getTypeOf(69);
-getTypeOf(true);
-getTypeOf(null);
-getTypeOf(undefined);
+getTypeOf("Penis"); //String
+getTypeOf(69); //number
+getTypeOf(true); //boolean
+getTypeOf(null); //object
+getTypeOf(undefined); //undefined
