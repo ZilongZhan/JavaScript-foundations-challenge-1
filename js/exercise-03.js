@@ -8,7 +8,7 @@ function getTypeOf(value) {
     console.log(typeof(value));
 }
 
-getTypeOf("Penis");
+getTypeOf("Penis"); // string
 getTypeOf(69);
 getTypeOf(true);
 getTypeOf(null);
