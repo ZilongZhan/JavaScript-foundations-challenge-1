@@ -9,7 +9,7 @@
     Once you see the results, write in a comment why it works that way
 */
 
-if (true && console.log("moo")); 
+if (true && console.log("moo"));
 
 /* this line uses the logical 'AND' operator, meaning that both conditions must be 
 met for the expression to be true. Since the first condition is true, 
