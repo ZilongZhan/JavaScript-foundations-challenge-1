@@ -7,3 +7,17 @@
 
     HINT1: Be careful for an infinite loop!
 */
+
+let loggedIn;
+let i = 1;
+
+while (!loggedIn) {
+  console.log("Incorrect login credentials");
+
+  if (i == 3) {
+    loggedIn = true;
+  } else {
+    i++;
+  }
+}
+console.log("Sucessfully logged in!");

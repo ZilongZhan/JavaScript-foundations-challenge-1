@@ -18,3 +18,41 @@
     You made it!
     All, done!
 */
+
+/* for (let i = 1; i <= 100; i++) {
+    if (i % 10 == 0) {
+        if (i == 50) {
+            console.log("Half way there!");
+        } else if (i == 100) {
+            console.log("You made it!");
+        } else {
+            console.log("Checkpoint! " + i);
+        }
+    }
+}
+console.log("All, done!");
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 10 == 0) {
+    if (i == 50 && i == 100) {
+        if (i == 50) {
+            console.log("Half way there!");
+        } else {
+            console.log("You made it!");
+        }
+    } else {
+        console.log("Checkpoint! " + i);
+    }
+  }
+}
+console.log("All, done!"); */
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 50 == 0) {
+    let message = i == 50 ? "Half way there!" : "You made it!";
+    console.log(message);
+  } else if (i % 10 == 0) {
+    console.log("Checkpoint! " + i);
+  }
+}
+console.log("All, done!");
