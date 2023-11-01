@@ -9,7 +9,7 @@ console.log("\n");
 checkOdd();
 
 function checkEven() {
-  for (let i = 10; i <= 40; i++) {
+  for (let index = 10; index <= 40; index++) {
     if (i % 2 == 0) {
       console.log(i);
     }
