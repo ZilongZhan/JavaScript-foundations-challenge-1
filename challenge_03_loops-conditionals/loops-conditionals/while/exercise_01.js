@@ -8,20 +8,20 @@ checkEven(10);
 console.log("\n");
 checkOdd(10);
 
-function checkEven(i) {
-  while (i <= 40) {
-    if (i % 2 == 0) {
-      console.log(i);
+function checkEven(index) {
+  while (index <= 40) {
+    if (index % 2 == 0) {
+      console.log(index);
     }
-    i++;
+    index++;
   }
 }
 
-function checkOdd(i) {
-  while (i <= 40) {
-    if (i % 2 != 0) {
-      console.log(i);
+function checkOdd(index) {
+  while (index <= 40) {
+    if (index % 2 != 0) {
+      console.log(index);
     }
-    i++;
+    index++;
   }
 }

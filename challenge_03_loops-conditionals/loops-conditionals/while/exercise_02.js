@@ -19,15 +19,15 @@
     All, done!
 */
 
-let i = 1;
+let index = 1;
 
-while (i <= 100) {
-  if (i % 50 == 0) {
-    let message = i === 50 ? "Half way there!" : "You made it!";
+while (index <= 100) {
+  if (index % 50 == 0) {
+    let message = index === 50 ? "Half way there!" : "You made it!";
     console.log(message);
-  } else if (i % 10 == 0) {
-    console.log("Checkpoint! " + i);
+  } else if (index % 10 == 0) {
+    console.log("Checkpoint! " + index);
   }
-  i++;
+  index++;
 }
 console.log("All, done!");

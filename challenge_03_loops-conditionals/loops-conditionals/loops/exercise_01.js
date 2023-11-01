@@ -7,7 +7,7 @@
         * if it is less than 5 print "Logged Out!"
 */
 
-for (let i = 1; i <= 10; i++) {
+for (let index = 1; index <= 10; index++) {
   const randomNumber = Math.floor(Math.random() * (11 - 1) + 1);
 
   if (randomNumber >= 5) {

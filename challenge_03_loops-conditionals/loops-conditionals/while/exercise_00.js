@@ -9,15 +9,15 @@
 */
 
 let loggedIn;
-let i = 1;
+let index = 1;
 
 while (!loggedIn) {
   console.log("Incorrect login credentials");
 
-  if (i == 3) {
+  if (index == 3) {
     loggedIn = true;
   } else {
-    i++;
+    index++;
   }
 }
 console.log("Sucessfully logged in!");

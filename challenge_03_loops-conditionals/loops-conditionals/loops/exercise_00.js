@@ -10,16 +10,16 @@ checkOdd();
 
 function checkEven() {
   for (let index = 10; index <= 40; index++) {
-    if (i % 2 == 0) {
-      console.log(i);
+    if (index % 2 == 0) {
+      console.log(index);
     }
   }
 }
 
 function checkOdd() {
-  for (let i = 10; i <= 40; i++) {
-    if (i % 2 != 0) {
-      console.log(i);
+  for (let index = 10; index <= 40; index++) {
+    if (index % 2 != 0) {
+      console.log(index);
     }
   }
 }

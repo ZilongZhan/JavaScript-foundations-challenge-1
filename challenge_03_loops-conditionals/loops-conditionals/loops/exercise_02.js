@@ -47,12 +47,12 @@ for (let i = 1; i <= 100; i++) {
 }
 console.log("All, done!"); */
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 50 == 0) {
-    let message = i == 50 ? "Half way there!" : "You made it!";
+for (let index = 1; index <= 100; index++) {
+  if (index % 50 == 0) {
+    let message = index === 50 ? "Half way there!" : "You made it!";
     console.log(message);
-  } else if (i % 10 == 0) {
-    console.log("Checkpoint! " + i);
+  } else if (index % 10 == 0) {
+    console.log("Checkpoint! " + index);
   }
 }
 console.log("All, done!");
