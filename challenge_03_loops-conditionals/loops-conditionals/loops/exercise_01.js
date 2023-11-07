@@ -8,7 +8,7 @@
 */
 
 for (let index = 1; index <= 10; index++) {
-  const randomNumber = Math.floor(Math.random() * (11 - 1) + 1);
+  const number = Math.floor(Math.random() * (11 - 1) + 1);
 
   if (randomNumber >= 5) {
     console.log(randomNumber + " -> Logged In!");

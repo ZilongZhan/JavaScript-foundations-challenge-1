@@ -10,7 +10,7 @@ checkOdd();
 
 function checkEven() {
   for (let index = 10; index <= 40; index++) {
-    if (index % 2 == 0) {
+    if (index % 2 === 0) {
       console.log(index);
     }
   }
@@ -18,7 +18,7 @@ function checkEven() {
 
 function checkOdd() {
   for (let index = 10; index <= 40; index++) {
-    if (index % 2 != 0) {
+    if (index % 2 !== 0) {
       console.log(index);
     }
   }
