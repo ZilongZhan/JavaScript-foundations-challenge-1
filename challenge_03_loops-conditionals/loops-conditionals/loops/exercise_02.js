@@ -19,12 +19,34 @@
     All, done!
 */
 
-for (let index = 1; index <= 100; index++) {
-  if (index % 50 === 0) {
-    let message = index === 50 ? "Half way there!" : "You made it!";
-    console.log(message);
-  } else if (index % 10 === 0) {
-    console.log("Checkpoint! " + index);
+/**
+ * isTenthLoop
+ */
+const isTenthLoop = function (lowThreshold, highThreshold) {
+  for (let number = lowThreshold; number <= highThreshold; number++) {
+    if (number === 100) {
+      console.log("You made it!\nAll, done!");
+    }
+
+    if (number === 50) {
+      console.log("Half way there!");
+    }
+
+    if (number % 10 === 0 && number % 50 !== 0) {
+      console.log(`Checkpoint! ${number}`);
+    }
   }
-}
-console.log("All, done!");
+};
+
+/**
+ * Program execution
+ */
+console.log("###############################");
+console.log("--- Is TENTH loop Program ---");
+
+const firstValue = 1;
+const lastValue = 100;
+
+isTenthLoop(firstValue, lastValue);
+
+console.log("--- Is TENTH loop complete ---");
