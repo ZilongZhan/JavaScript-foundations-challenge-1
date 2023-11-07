@@ -20,10 +20,10 @@
 */
 
 for (let index = 1; index <= 100; index++) {
-  if (index % 50 == 0) {
+  if (index % 50 === 0) {
     let message = index === 50 ? "Half way there!" : "You made it!";
     console.log(message);
-  } else if (index % 10 == 0) {
+  } else if (index % 10 === 0) {
     console.log("Checkpoint! " + index);
   }
 }

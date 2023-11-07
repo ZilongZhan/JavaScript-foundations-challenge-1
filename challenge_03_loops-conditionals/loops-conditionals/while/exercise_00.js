@@ -14,7 +14,7 @@ let index = 1;
 while (!loggedIn) {
   console.log("Incorrect login credentials");
 
-  if (index == 3) {
+  if (index === 3) {
     loggedIn = true;
   } else {
     index++;

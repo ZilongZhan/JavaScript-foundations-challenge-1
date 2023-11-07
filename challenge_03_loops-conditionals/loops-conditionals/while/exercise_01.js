@@ -10,7 +10,7 @@ checkOdd(10);
 
 function checkEven(index) {
   while (index <= 40) {
-    if (index % 2 == 0) {
+    if (index % 2 === 0) {
       console.log(index);
     }
     index++;
@@ -19,7 +19,7 @@ function checkEven(index) {
 
 function checkOdd(index) {
   while (index <= 40) {
-    if (index % 2 != 0) {
+    if (index % 2 !== 0) {
       console.log(index);
     }
     index++;

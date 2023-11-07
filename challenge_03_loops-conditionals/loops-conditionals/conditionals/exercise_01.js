@@ -13,7 +13,7 @@ evenOdd(3); //Number is odd.
 evenOdd(8); //Number is even.
 
 function evenOdd(number) {
-  if (number % 2 == 0) {
+  if (number % 2 === 0) {
     console.log("Number is even");
   } else {
     console.log("Number is odd");

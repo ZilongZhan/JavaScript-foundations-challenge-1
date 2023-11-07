@@ -12,9 +12,9 @@
 console.log("--- Animal Checker Program ---");
 const animal = "cat";
 
-if (animal == "cat") {
+if (animal === "cat") {
   console.log("Meow!");
-} else if (animal == "dog") {
+} else if (animal === "dog") {
   console.log("Woof!");
 } else {
   console.log("Must be an alien");
