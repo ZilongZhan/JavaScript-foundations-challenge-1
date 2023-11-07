@@ -10,7 +10,7 @@
 const isEvenLoop = function (lowThreshold, highThreshold) {
   for (let number = lowThreshold; number < highThreshold; number++) {
     if (number % 2 === 0) {
-      console.log(`Number ${penis} is even`);
+      console.log(`Number ${number} is even`);
     }
   }
 };
