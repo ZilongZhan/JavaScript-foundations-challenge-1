@@ -5,7 +5,7 @@
 */
 
 function getTypeOf(value) {
-    console.log(typeof(value));
+  console.log(typeof value);
 }
 
 getTypeOf("Penis"); //String
