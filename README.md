@@ -523,18 +523,3 @@ do {
 // Despite flag === false this will still loop once before condition is evaluate
 
 console.log(result); // 1
-```
-
-## About functions
-
-### Declaration function
-
-todo
-
-### Expression function
-
-todo
-
-### Callbacks
-
-todo
